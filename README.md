@@ -33,7 +33,7 @@ def getFromAPI():
     # response = requests.get("http://localhost:8200" + " ..... ", headers = {"X-Vault-Token": YOUR_TOKEN})
     # 200 = OK, other = NOK
     if(response.ok):
-       ....
+      ....
     else:
         Resp.raise_for_status()
         
