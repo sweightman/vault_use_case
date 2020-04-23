@@ -1,7 +1,7 @@
 # vault_use_case
 To demonstrate the Vault use-case to ECS Digital
 
-# Overview
+## Overview
 HashiCorp’s Vault is a secret management tool allowing an organisation to safely store secrets (access keys, credentials, etc.). With Vault, application and users don’t have to store/remember secrets.
 Vault has many features, including Encryption as a Service and Dynamic Secrets. 
 This is the first part of the Vault Use-case, which will focus on Vault secrets, permissions and integration.
@@ -39,3 +39,12 @@ def getFromAPI():
       Resp.raise_for_status()
 
 getFromEnv()```
+
+## How to run
+You need `make` and `docker` installed as a prerequisite. I have created seperate make tasks to align with the individual tasks in this use-case. Unfortunaetly, I made it to number 5 in the the list of 8 tasks.
+Once you have checked out this repo to your local please run in the followng order ...
+1. `make vault_env`
+2. `make vault_init_login`
+3. `make vault_understand_secrets`
+4. `make vault_mysql_secret_engine`
+5. `make vault_policy_token`
