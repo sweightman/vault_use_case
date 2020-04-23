@@ -38,11 +38,13 @@ def getFromAPI():
     else:
       Resp.raise_for_status()
 
-getFromEnv()```
+getFromEnv()
+```
 
 ## How to run
 You need `make` and `docker` installed as a prerequisite. I have created seperate make tasks to align with the individual tasks in this use-case. Unfortunaetly, I made it to number 5 in the the list of 8 tasks.
 Once you have checked out this repo to your local please run in the followng order ...
+
 1. `make vault_env`
 2. `make vault_init_login`
 3. `make vault_understand_secrets`
