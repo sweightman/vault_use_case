@@ -42,7 +42,8 @@ getFromEnv()
 ```
 
 ## How to run
-You need `make` and `docker` installed as a prerequisite. I have created seperate make tasks to align with the individual tasks in this use-case. Unfortunaetly, I made it to number 5 in the the list of 8 tasks.
+You need `make` and `docker` installed as a prerequisite, I am using Fedora 31 on my local.
+I have created seperate make tasks to align with the individual tasks in this use-case. I made it to number 5 in the the list of 8 tasks.
 Once you have checked out this repo to your local please run in the followng order ...
 
 1. `make vault_env`
